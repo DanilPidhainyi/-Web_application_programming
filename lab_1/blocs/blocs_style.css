@@ -23,6 +23,7 @@
     top: 0;
     left: 0;
     z-index: 2;
+    justify-content: space-between;
 }
 
 .bloc__2 {
@@ -67,7 +68,7 @@
     background: #C6D9F1;
     left: 0;
     bottom: 4.3%;
-    justify-content: right;
+    justify-content: space-between;
 }
 
 
@@ -76,6 +77,7 @@
     width: 200px;
     height: 50px;
     background: white;
+    position: relative;
     display: flex;
     align-items: center;
 
@@ -83,8 +85,11 @@
 
 .bloc__1__x {
     justify-content: left;
+    right: 20px;
 }
 
 .bloc__6__y {
     justify-content: right;
+    left: 20px;
+
 }
